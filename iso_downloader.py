@@ -100,6 +100,68 @@ officeDict = {
         "lang": ("Arabic", "French", "English", "Portuguese")
     }
 }
+officeDownLinks = {
+    "Office 365": {
+        "home_pre": {
+            "Arabic": "https://tb.rg-adguard.net/dl.php?go=f548523a",
+            "French": "https://tb.rg-adguard.net/dl.php?go=19563d95",
+            "English": "https://tb.rg-adguard.net/dl.php?go=ce412915",
+            "Portuguese": "https://tb.rg-adguard.net/dl.php?go=8d3bf668"
+        },
+        "Business": {
+            "Arabic": "https://tb.rg-adguard.net/dl.php?go=fff2f669",
+            "French": "https://tb.rg-adguard.net/dl.php?go=c31af272",
+            "English": "https://tb.rg-adguard.net/dl.php?go=beceea13",
+            "Portuguese": "https://tb.rg-adguard.net/dl.php?go=e55ccadf"
+        },
+        "pro_plus": {
+            "Arabic": "https://tb.rg-adguard.net/dl.php?go=78674cf8",
+            "French": "https://tb.rg-adguard.net/dl.php?go=f6561968",
+            "English": "https://tb.rg-adguard.net/dl.php?go=287bd637",
+            "Portuguese": "https://tb.rg-adguard.net/dl.php?go=9f6eaeec"
+        }
+    },
+    "Office 2019": {
+        "hom_stu": {
+            "Arabic": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ar-SA/HomeStudent2019Retail.img",
+            "French": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/fr-FR/HomeStudent2019Retail.img",
+            "English": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/en-US/HomeStudent2019Retail.img",
+            "Portuguese": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/pt-PT/HomeStudent2019Retail.img"
+        },
+        "hom_bus": {
+            "Arabic": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ar-SA/HomeBusiness2019Retail.img",
+            "French": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/fr-FR/HomeBusiness2019Retail.img",
+            "English": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/en-US/HomeBusiness2019Retail.img",
+            "Portuguese": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/pt-PT/HomeBusiness2019Retail.img"
+        },
+        "pro_plus": {
+            "Arabic": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ar-SA/ProPlus2019Retail.img",
+            "French": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/fr-FR/ProPlus2019Retail.img",
+            "English": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/en-US/ProPlus2019Retail.img",
+            "Portuguese": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/pt-PT/ProPlus2019Retail.img"
+        }
+    },
+    "Office 2016": {
+        "hom_stu":{
+            "Arabic": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ar-SA/HomeStudentRetail.img",
+            "French": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/fr-FR/HomeStudentRetail.img",
+            "English": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/en-US/HomeStudentRetail.img",
+            "Portuguese": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/pt-PT/HomeStudentRetail.img"
+        },
+        "hom_bus": {
+            "Arabic": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ar-SA/HomeBusinessRetail.img",
+            "French": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/fr-FR/HomeBusinessRetail.img",
+            "English": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/en-US/HomeBusinessRetail.img",
+            "Portuguese": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/pt-PT/HomeBusinessRetail.img"
+        },
+        "pro_plus": {
+            "Arabic": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/ar-SA/ProPlusRetail.img",
+            "French": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/fr-FR/ProPlusRetail.img",
+            "English": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/en-US/ProPlusRetail.img",
+            "Portuguese": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/pt-PT/ProPlusRetail.img"
+        }
+    }
+}
 
 
 class Iso_Downloader(tk.Tk):
@@ -124,6 +186,7 @@ class Iso_Downloader(tk.Tk):
         self.notebook.pack(expand=True, fill="both")
         self.osFrame.place(x=0, y=0)
         self.add_windows_in_nb()
+        self.add_office_in_nb()
 
     def add_windows_in_nb(self):
         def win10ReDirect():
@@ -219,6 +282,80 @@ class Iso_Downloader(tk.Tk):
         else:
             self.link = winDownLinks[Refer][self.winverid]
         wb.open(self.link)
+
+    def add_office_in_nb(self):
+        def office365ReDirect():
+            self.officeRefer = 'Office 365'
+            self.officeVer(self.officeRefer)
+
+        def office2019ReDirect():
+            self.officeRefer = 'Office 2019'
+            self.officeVer(self.officeRefer)
+
+        def office2016ReDirect():
+            self.officeRefer = 'Office 2016'
+            self.officeVer(self.officeRefer)
+
+        style = ttk.Style()
+        style.configure('W.TButton', font="calibri 15")
+        ttk.Button(self.officeFrame, text="Office 365",
+                   command=office365ReDirect, style='W.TButton').pack(pady=10)
+        ttk.Button(self.officeFrame, text="Office 2019",
+                   command=office2019ReDirect, style='W.TButton').pack(pady=10)
+        ttk.Button(self.officeFrame, text="Office 2016",
+                   command=office2016ReDirect, style='W.TButton').pack(pady=10)
+
+    def officeVer(self, Refer):
+        self.officeVar = StringVar()
+        ttk.Label(text="Select Edition : ",
+              font="calibri 21").place(x=205, y=25)
+        self.officeVerMenu = ttk.Combobox(
+            self, textvariable=self.officeVar, width=40, font="calibri 14", justify="center")
+        self.officeVerMenu['values'] = officeDict[Refer]['Edition']
+        self.officeVerMenu['state'] = 'readonly'
+        self.officeVerMenu.place(x=395, y=31)
+        self.officeVerMenu.bind("<<ComboboxSelected>>", lambda refer=Refer: self.officeLang(Refer))
+
+    def officeLang(self, Refer):
+        self.officelangVar = StringVar()
+        tk.Label(text="Select Language : ",
+                 font="calibri 21").place(x=205, y=80)
+        self.officeLangMenu = ttk.Combobox(
+            self, textvariable=self.officelangVar, width=37, font="calibri 14", justify="center")
+        self.officeLangMenu['values'] = officeDict[Refer]['lang']
+        self.officeLangMenu['state'] = 'readonly'
+        self.officeLangMenu.place(x=425, y=87)
+        self.officeLangMenu.bind("<<ComboboxSelected>>", lambda refer=Refer: self.officeDownButton(Refer))
+
+    def officeDownButton(self, Refer):
+        self.style = ttk.Style()
+        self.style.configure("Kim.TButton", font="calibri 17")
+        ttk.Button(self, text='Download', style='Kim.TButton', command=lambda refer=Refer: self.officeDownload(Refer)).place(x=205, y=130)
+
+    def officeDownload(self, Refer):
+        self.officever = self.officeVar.get()
+        self.officelang = self.officelangVar.get()
+        if Refer=="Office 365":
+            if self.officever=="Home Premium":
+                self.officeverid = "home_pre"
+            elif self.officever=="Business":
+                self.officeverid = "Business"
+            elif self.officever=="Professional Plus":
+                self.officeverid = "pro_plus"
+        elif Refer=="Office 2019" or Refer=="Office 2016":
+            if self.officever=="Home Student":
+                self.officeverid = "hom_stu"
+            elif self.officever=="Home Business":
+                self.officeverid = "hom_bus"
+            elif self.officever=="Professional Plus":
+                self.officeverid = "pro_plus"
+
+        self.link = officeDownLinks[Refer][self.officeverid][self.officelang]
+        wb.open(self.link)
+        
+
+
+
 
 
 if __name__ == "__main__":
