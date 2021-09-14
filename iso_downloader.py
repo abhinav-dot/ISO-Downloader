@@ -212,6 +212,7 @@ class Iso_Downloader(tk.Tk):
     def winVer(self, Refer, type='version'):
         try:
             self.winLangMenu.set('')
+            self.officeLangMenu.set('')
         except:
             pass
         self.var = StringVar()
@@ -306,6 +307,11 @@ class Iso_Downloader(tk.Tk):
                    command=office2016ReDirect, style='W.TButton').pack(pady=10)
 
     def officeVer(self, Refer):
+        try:
+            self.officeLangMenu.set('')
+            self.winLangMenu.set('')
+        except:
+            pass
         self.officeVar = StringVar()
         ttk.Label(text="Select Edition : ",
               font="calibri 21").place(x=205, y=25)
