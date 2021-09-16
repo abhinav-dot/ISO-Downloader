@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import Button, IntVar, StringVar, Variable, ttk
 from tkinter.constants import BOTH, X
 import webbrowser as wb
+import os
 
 windowsOsDict = {
     "Windows 10": {
@@ -363,6 +364,7 @@ class Iso_Downloader(tk.Tk):
         wb.open(self.link)
 
     def about_section(self):
+        self.path = '@%s' % os.path.join(os.environ['WINDIR'], 'Cursors/aero_link.cur').replace('\\', '/')
         self.label = tk.Label(self.aboutFrame, text='''
         ISO Downloader
         made by Abhinav
@@ -371,6 +373,7 @@ class Iso_Downloader(tk.Tk):
         ''',font="Calibri 10")
         self.label.place(x=0, y=0)
         self.hyperlink = tk.Label(self.aboutFrame, text="Github Website", font="Calibri 10 underline")
+        self.hyperlink.configure(cursor=self.path)
         self.hyperlink.place(x=25, y=90)
         self.hyperlink.bind("<Button-1>", lambda self: wb.open("https://github.com/abhinav-dot/ISO-Downloader"))
         
