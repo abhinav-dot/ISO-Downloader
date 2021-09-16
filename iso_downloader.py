@@ -181,12 +181,15 @@ class Iso_Downloader(tk.Tk):
         self.notebook = ttk.Notebook(self.osFrame)
         self.windowsFrame = ttk.Frame(self.notebook)
         self.officeFrame = ttk.Frame(self.notebook)
-        self.notebook.add(self.windowsFrame, text="windows", )
-        self.notebook.add(self.officeFrame, text="office")
+        self.aboutFrame = ttk.Frame(self.notebook)
+        self.notebook.add(self.windowsFrame, text="Windows", )
+        self.notebook.add(self.officeFrame, text="Office")
+        self.notebook.add(self.aboutFrame, text="About")
         self.notebook.pack(expand=True, fill="both")
         self.osFrame.place(x=0, y=0)
         self.add_windows_in_nb()
         self.add_office_in_nb()
+        self.about_section()
 
     def add_windows_in_nb(self):
         def win10ReDirect():
@@ -358,6 +361,18 @@ class Iso_Downloader(tk.Tk):
 
         self.link = officeDownLinks[Refer][self.officeverid][self.officelang]
         wb.open(self.link)
+
+    def about_section(self):
+        self.label = tk.Label(self.aboutFrame, text='''
+        ISO Downloader
+        made by Abhinav
+
+        v1.01
+        ''',font="Calibri 10")
+        self.label.place(x=0, y=0)
+        self.hyperlink = tk.Label(self.aboutFrame, text="Github Website", font="Calibri 10 underline")
+        self.hyperlink.place(x=25, y=90)
+        self.hyperlink.bind("<Button-1>", lambda self: wb.open("https://github.com/abhinav-dot/ISO-Downloader"))
         
 
 
