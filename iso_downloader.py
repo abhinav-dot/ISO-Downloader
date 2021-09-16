@@ -172,7 +172,6 @@ class Iso_Downloader(tk.Tk):
         self.resizable(width=False, height=False)
         self.title("ISO Downloader 1.01")
         self.var = StringVar()
-        self.wm_iconbitmap("iso.ico")
 
     def create_frames_and_notebook(self):
         self.osFrame = ttk.Frame()
